@@ -1,0 +1,75 @@
+/* Basic styles, adjust as needed */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #340018a5;
+    color: #ffffff;
+    font-weight: bolder;
+    background-image: url("univ.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(17, 0, 9, 0.936); /* Adjust the color and opacity as needed */
+    background-blend-mode: multiply; /* Apply blending mode for the translucent effect */
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-size: large;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .links {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+  
+  .link-item {
+    background-color: #000000;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #ffffff;
+    transition: background-color 0.3s ease;
+    border-radius: 50px;
+    padding: 10px 20px;
+  }
+  
+  .link-item:hover {
+    background-color: #592828;
+    color: antiquewhite;
+    font-size: larger;
+  }
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+
+/* Media queries for mobile responsiveness */
+@media (max-width: 600px) and (orientation: landscape) {
+    .container {
+        padding: 20px;
+        font-size: larger;
+    }
+
+    .link-item {
+        padding: 15px 30px;
+        font-size: larger;
+    }
+
+}
