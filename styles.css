@@ -48,7 +48,8 @@ body {
   .link-item:hover {
     background-color: #592828;
     color: antiquewhite;
-    font-size: larger;
+    font-size: xx-large;
+    transition-duration: 5ms;
   }
 
 footer {
@@ -58,13 +59,25 @@ footer {
     position: absolute;
     bottom: 0;
     width: 100%;
+    font-size: large;
+
   }
 
 /* Media queries for mobile responsiveness */
-@media (max-width: 600px) and (orientation: landscape) {
+@media (max-width: 1400px) and (orientation: portrait) {
+  body{
+    gap: 50px;
+    font-size: larger;
+  }
+
+  header {
+    text-align: center;
+    margin-bottom: 80px;
+    font-size: xx-large;
+  }
     .container {
-        padding: 20px;
-        font-size: larger;
+        padding: 40px;
+        font-size: xx-large;
     }
 
     .link-item {
@@ -72,4 +85,14 @@ footer {
         font-size: larger;
     }
 
+    .links {
+      display: flex;
+      flex-direction: column;
+      gap: 50px;
+      text-align: center;
+    }
+
+  footer{
+    font-size: xx-large;
+  }
 }
