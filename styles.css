@@ -1,4 +1,4 @@
-/* Basic styles, adjust as needed */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -11,8 +11,8 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-color: rgba(17, 0, 9, 0.936); /* Adjust the color and opacity as needed */
-    background-blend-mode: multiply; /* Apply blending mode for the translucent effect */
+    background-color: rgba(17, 0, 9, 0.936); 
+    background-blend-mode: multiply; 
   }
   
   .container {

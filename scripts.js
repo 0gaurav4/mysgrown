@@ -1,4 +1,4 @@
-// Example link data
+
 const linksData = [
     { name: 'Previous Sem Imp!', url: 'https://0gaurav4.github.io/mysgrown/notes.html' },
     { name: 'MCADS 23-24 Calender', url: 'https://drive.google.com/file/d/1BrKswwzFVmdLZXw2WxkS4g1Io0GIlYWC/view?usp=drive_link' },
@@ -9,9 +9,6 @@ const linksData = [
     { name: 'MCADS 23-24 Holiday List', url: 'https://bbdu.ac.in/notices/' },
     { name: 'MCADS 23-24 Project', url: 'https://0gaurav4.github.io/Check-Your-Project-Popularity/blogs.html' },
     { name: 'MCADS 23-24 Degree and Docs!', url: 'https://wa.me/c/919170884817' },
-
-
-    // Add more link objects here as needed
   ];
   
   // Function to create link elements
