@@ -63,14 +63,15 @@ body {
   }
 
 footer {
+    padding-top: 1px;
     text-align: center;
     background-color: #333;
     color: #fff;
-    position: absolute;
+    position: relative;
     bottom: 0;
     width: 100%;
-    font-size: large;}
-
+    height: 60px;
+    font-size: large; }
 
 /* Media queries for mobile responsiveness */
 @media (max-width: 1400px) and (orientation: portrait) {
