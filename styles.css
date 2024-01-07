@@ -54,12 +54,12 @@ body {
 
   .visitor-count {
     position: absolute;
-    left: 20px;
+    left: 120px;
   }
 
   .visitor {
     position: absolute;
-    left: 50px;
+    left: 20px;
   }
 
 footer {
@@ -75,6 +75,9 @@ footer {
 /* Media queries for mobile responsiveness */
 @media (max-width: 1400px) and (orientation: portrait) {
   body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
     gap: 50px;
     font-size: larger;
   }
@@ -99,6 +102,16 @@ footer {
       flex-direction: column;
       gap: 50px;
       text-align: center;
+    }
+
+    .visitor-count {
+      position: absolute;
+      left: 180px;
+    }
+  
+    .visitor {
+      position: absolute;
+      left: 10px;
     }
 
   footer{
