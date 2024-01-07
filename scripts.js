@@ -30,11 +30,30 @@ const linksData = [
     });
   }
   
-  // Render links when the page loads
+  function updateVisitorCount() {
+    let count = parseInt(getCookie('visitorCount')) || 0;
+    count++;
+    setCookie('visitorCount', count, 365); // Set cookie for 1 year
+    document.getElementById('visitorCount').textContent = count;
+  }
+  
+  function setCookie(name, value, days) {
+    const expires = new Date();
+    expires.setTime(expires.getTime() + days * 24 * 60 * 60 * 1000);
+    document.cookie = `${name}=${value};expires=${expires.toUTCString()};path=/`;
+  }
+  
+  function getCookie(name) {
+    const keyValue = document.cookie.match(`(^|;) ?${name}=([^;]*)(;|$)`);
+    return keyValue ? keyValue[2] : null;
+  }
+  
   window.addEventListener('load', () => {
     renderLinks(linksData);
+    updateVisitorCount();
+    const savedCount = parseInt(getCookie('visitorCount')) || 0;
+    document.getElementById('visitorCount').textContent = savedCount;
   });
-
 
   window.watsonAssistantChatOptions = {
     integrationID: "0eb3456f-dba8-4102-a8ff-1ca9a13ca653", // The ID of this integration.

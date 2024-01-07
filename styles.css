@@ -52,6 +52,16 @@ body {
     transition-duration: 5ms;
   }
 
+  .visitor-count {
+    position: absolute;
+    left: 20px;
+  }
+
+  .visitor {
+    position: absolute;
+    left: 50px;
+  }
+
 footer {
     text-align: center;
     background-color: #333;
@@ -59,9 +69,8 @@ footer {
     position: absolute;
     bottom: 0;
     width: 100%;
-    font-size: large;
+    font-size: large;}
 
-  }
 
 /* Media queries for mobile responsiveness */
 @media (max-width: 1400px) and (orientation: portrait) {
@@ -95,4 +104,5 @@ footer {
   footer{
     font-size: xx-large;
   }
+
 }
