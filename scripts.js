@@ -55,6 +55,7 @@ const linksData = [
     document.getElementById('visitorCount').textContent = savedCount;
   });
 
+
   window.watsonAssistantChatOptions = {
     integrationID: "0eb3456f-dba8-4102-a8ff-1ca9a13ca653", // The ID of this integration.
     region: "au-syd", // The region your integration is hosted in.
@@ -66,5 +67,6 @@ const linksData = [
     t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
     document.head.appendChild(t);
   });
+
 
   
