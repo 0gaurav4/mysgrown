@@ -48,9 +48,17 @@ const linksData = [
     return keyValue ? keyValue[2] : null;
   }
   
+// Function to hide the loader and display the content when links are loaded
+function hideLoader() {
+  document.querySelector('.loader-wrapper').style.display = 'none';
+  document.querySelector('.container').style.display = 'block';
+  document.querySelector('.foot').style.display = 'block';
+}
+
   window.addEventListener('load', () => {
     renderLinks(linksData);
     updateVisitorCount();
+    hideLoader();
     const savedCount = parseInt(getCookie('visitorCount')) || 0;
     document.getElementById('visitorCount').textContent = savedCount;
   });
