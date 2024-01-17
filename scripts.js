@@ -5,7 +5,7 @@ const linksData = [
     { name: 'MCADS 23-24 Syllabus', url: 'https://drive.google.com/file/d/1BdXRfSNzFpdwaeHL0sz-ba10SGGgUidW/view?usp=drive_link' },
     { name: 'MCADS 23-24 Exam & Enrollment', url: 'http://103.85.141.226:8063/bbduexamcell/' },
     { name: 'MCADS 23-24 Result Main/COP', url: 'https://bbdu.ac.in/result/' },
-    { name: 'MCADS 23-24 More Details!', url: 'https://0gaurav4.github.io/mysgrown/MCA4.html/moredetails.html' },
+    { name: 'MCADS 23-24 More Details!', url: 'https://0gaurav4.github.io/mysgrown/moredetails.html' },
     { name: 'MCADS 23-24 Holiday List', url: 'https://bbdu.ac.in/notices/' },
     { name: 'MCADS 23-24 Project', url: 'https://0gaurav4.github.io/Check-Your-Project-Popularity/blogs.html' },
     { name: 'MCADS 23-24 Degree and Docs!', url: 'https://wa.me/c/919170884817' },
