@@ -7,7 +7,7 @@ const linksData = [
     { name: 'MCADS 23-24 Result Main/COP', url: 'https://bbdu.ac.in/result/' },
     { name: 'MCADS 23-24 More Details!', url: 'https://0gaurav4.github.io/mysgrown/moredetails.html' },
     { name: 'MCADS 23-24 Holiday List', url: 'https://bbdu.ac.in/notices/' },
-    { name: 'MCADS 23-24 Project', url: 'https://0gaurav4.github.io/Check-Your-Project-Popularity/blogs.html' },
+    { name: 'MCADS 23-24 Project', url: 'https://0gaurav4.github.io/mysgrown/project.html' },
     { name: 'MCADS 23-24 Degree and Docs!', url: 'https://wa.me/c/919170884817' },
   ];
   
@@ -69,6 +69,7 @@ function hideLoader() {
     region: "au-syd", // The region your integration is hosted in.
     serviceInstanceID: "0bc95a87-3be7-4fec-ba6a-846986687d76", // The ID of your service instance.
     onLoad: async (instance) => {
+    instance.updateLauncherAvatarURL('./images/robot.png');
     await instance.render(); }
   };
   
