@@ -69,9 +69,11 @@ function hideLoader() {
     region: "au-syd", // The region your integration is hosted in.
     serviceInstanceID: "0bc95a87-3be7-4fec-ba6a-846986687d76", // The ID of your service instance.
     onLoad: async (instance) => {
-    instance.updateLauncherAvatarURL('./images/robot.png');
+    // instance.updateLauncherAvatarURL('./images/robot.png');
+    instance.updateLauncherAvatarURL('./images/thought-bubble.png');
     await instance.render(); }
   };
+
   
   setTimeout(function(){
     const t=document.createElement('script');
