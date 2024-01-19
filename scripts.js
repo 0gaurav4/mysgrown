@@ -68,7 +68,9 @@ function hideLoader() {
     integrationID: "0eb3456f-dba8-4102-a8ff-1ca9a13ca653", // The ID of this integration.
     region: "au-syd", // The region your integration is hosted in.
     serviceInstanceID: "0bc95a87-3be7-4fec-ba6a-846986687d76", // The ID of your service instance.
-    onLoad: async (instance) => { await instance.render(); }
+    onLoad: async (instance) => {
+    instance.updateLauncherAvatarURL('./images/robot.png');
+    await instance.render(); }
   };
   setTimeout(function(){
     const t=document.createElement('script');
