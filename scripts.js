@@ -1,7 +1,7 @@
 
 const linksData = [
     { name: 'Previous Sem Imp!', url: 'https://0gaurav4.github.io/mysgrown/notes.html' },
-    { name: 'MCADS 23-24 Calender', url: 'https://drive.google.com/file/d/1BrKswwzFVmdLZXw2WxkS4g1Io0GIlYWC/view?usp=drive_link' },
+    { name: 'MCADS 23-24 Calender, Timetable, Notes', url: 'https://drive.google.com/drive/folders/1bMzJMGsjgoCCHkb3N9NW88Q-u2_uBJzA' },
     { name: 'MCADS 23-24 Syllabus', url: 'https://drive.google.com/file/d/1BdXRfSNzFpdwaeHL0sz-ba10SGGgUidW/view?usp=drive_link' },
     { name: 'MCADS 23-24 Exam & Enrollment', url: 'http://103.85.141.226:8063/bbduexamcell/' },
     { name: 'MCADS 23-24 Result Main/COP', url: 'https://bbdu.ac.in/result/' },
